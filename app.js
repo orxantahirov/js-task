@@ -1,16 +1,7 @@
-// let a = prompt("haralisan qaqa");
+let a = prompt("bu eraziye catdirilma varmi?");
 
-// if (a == "Baki") {
-//   console.log("catdirilma var");
-// } else {
-//   console.log("catdirilma yoxdur");
-// }
-
-// let button = document.getElementById("btn");
-// let modal = document.getElementById("modal");
-
-// button.addEventListener("click", () => {
-//   modal.classList.toggle("show");
-// });
-
-
+if (a.toLowerCase() == "Baki".toLowerCase()) {
+  console.log("catdirilma var");
+} else {
+  console.log("catdirilma yoxdur");
+}
