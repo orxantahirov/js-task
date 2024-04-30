@@ -7,5 +7,8 @@
 // }
 
 let a = prompt("promptdan gelen deyer");
-
-console.log(a);
+if (a === "") {
+  console.log("promptun ici boshdur");
+} else {
+  console.log(a);
+}
