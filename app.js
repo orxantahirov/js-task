@@ -1,5 +1,5 @@
 let a = prompt("bu eraziye catdirilma varmi?");
-let b = "Baki";
+let b = "razin";
 if (a.toLowerCase() == b.toLowerCase()) {
   console.log("catdirilma var");
 } else {
